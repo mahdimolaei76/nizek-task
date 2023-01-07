@@ -1,0 +1,19 @@
+body{
+    margin:0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height: 100vh;
+    background-color: #e0e4f5;
+}
+
+h1{
+    font-weight: normal;
+}
+iframe{
+    display: none;
+}
