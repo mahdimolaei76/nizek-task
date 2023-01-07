@@ -1,0 +1,24 @@
+.checkbox-svg {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translate3d(0, 0, 0);
+}
+.checkbox--container{
+    width: 250px;
+    display: flex;
+    position: relative;
+    .checkbox--component--input{
+        border-radius: 20px;
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .checkbox--component--label{
+        margin: auto;
+        cursor: pointer;
+        font-size: 11px;
+        padding: 0.3em 0;
+    }
+}
